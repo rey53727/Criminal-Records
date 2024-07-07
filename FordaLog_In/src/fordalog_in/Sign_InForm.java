@@ -35,6 +35,7 @@ public class Sign_InForm extends javax.swing.JFrame
         jLabel5 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jProgressBar1 = new javax.swing.JProgressBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -111,8 +112,6 @@ public class Sign_InForm extends javax.swing.JFrame
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 0, -1, 500));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Van\\Documents\\NetBeansProjects\\FordaLog_In\\src\\Icons\\NewSign_InBG3.png")); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 140, 230, 360));
 
         jLabel5.setFont(new java.awt.Font("Segoe Script", 1, 52)); // NOI18N
@@ -122,9 +121,8 @@ public class Sign_InForm extends javax.swing.JFrame
         jLabel4.setFont(new java.awt.Font("Monospaced", 1, 52)); // NOI18N
         jLabel4.setText("Records");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(269, 140, -1, -1));
-
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Van\\Documents\\NetBeansProjects\\FordaLog_In\\src\\Icons\\Sign_InhubBG.png")); // NOI18N
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 250, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -188,5 +186,6 @@ public class Sign_InForm extends javax.swing.JFrame
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JProgressBar jProgressBar1;
     // End of variables declaration//GEN-END:variables
 }
